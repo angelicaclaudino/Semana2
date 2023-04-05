@@ -1,80 +1,57 @@
-body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+
+  background-image: url(../img/franquia-piratas-do-caribe.jpg);
+  height: 180vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+p, h1, h2,ul {
+    color: rgb(248, 245, 242);
     
-
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+form label {
+    display: inline-block;
     
 }
-
-nav {
-    display: flex;
-    justify-content: left;
-
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: violet;
-}
-
-section {
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-p {
-    text-align: justify; 
-   
-}
-
-ol {       
-
-}
-
-li {
-    text-align: justify; 
-
-}
-    
-
-.contact {
-
-}
-
-label {
+form textarea, input, select {
     display: block;
-    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    background: #DDDDDD;
+    clear: both;
+    margin-bottom: 10px;
+}
+
+
+.email {
+    width: 40px;
+    margin: 0%;
+    display: inline-flex;
+}
+
+form textarea {
+    width: 425px;
+    padding: 10px;
+    height: 100px;
+}
+
+button {
+    color: #7E459B;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
     
 }
 
-input[type="text"],
-input[type="email"],
-textarea  {
-
- quero colocar do lado direito;
-}
-
-input[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #555;
+.sobre {
+    margin: 10%;
+    width: 100%;
+    
 }
