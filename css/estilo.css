@@ -6,8 +6,7 @@ body{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
   
 }
 
@@ -50,8 +49,14 @@ button {
     
 }
 
+header{
+    display: flex;
+    justify-content: center;
+}
+
 .sobre {
-    margin: 10%;
-    width: 100%;
+    margin: 5px;
+    width: 50%;
+    text-align: left;
     
 }
